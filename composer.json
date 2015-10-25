@@ -1,0 +1,23 @@
+{
+  "name": "firegento/mage2testtheme",
+  "description": "Test Theme for Magento 2",
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0",
+    "magento/module-store": "1.0.0-beta",
+    "magento/module-backend": "1.0.0-beta",
+    "magento/framework": "1.0.0-beta"
+  },
+  "type": "magento2-theme",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Team FireGento",
+      "email": "team@firegento.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ]
+  }
+}
